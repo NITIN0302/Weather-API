@@ -1,0 +1,68 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(248, 242, 242);
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    /* background-image:url('https://source.unsplash.com/1920x1080/?weather'); */
+}
+
+.card
+{
+    text-align:left;
+    margin:150px;
+    background-color:black;
+    opacity:0.8;
+    color:white;
+    border-radius:25px;
+    width:100%;
+    max-width:350px;
+    height:80%;
+    max-height:fit-content;
+    padding:30px;
+}
+
+button
+{
+   border:none;
+   border-radius:50%;
+   height:2.7em;
+   width: 2.7em;
+   background-color:#7c7c7c2b;
+   color:white;
+}
+
+button:hover
+{
+    background-color: rgb(94, 91, 91);
+    cursor: pointer;
+    transition:.3s ease-in-out;
+}
+
+.search-bar
+{
+    background-color:#e3d1d12b;
+    width:90%;
+    height:2.5em;
+    border-radius:20px;
+    border:none;
+    color:aliceblue;
+    margin-right:5px;
+}
+
+.search
+{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+h1.temprature
+{
+    margin:0;
+}
+
+
