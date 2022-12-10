@@ -62,4 +62,4 @@ document
     }
   });
 
-weather.fetchWeather("Guna");
+weather.fetchWeather("Unnao");
